@@ -10,7 +10,7 @@ int main()
 
 string FirstName, LastName;
 char fInitial, lInitial;                      //Declaring Variables
-
+int lucky;
 
 cout<<"What's your first name?\n";           
 cin>> FirstName;                             //Sentences For Names
@@ -27,8 +27,9 @@ lInitial=LastName[0];
 cout<< "Welcome, "<<fInitial<<"."<<lInitial<<", here is your fortune...\n";
 
   
-  
-  //tell fortune
+cout<<"your lucky number is "<<FirstName.length()<<endl;
+cin>> lucky;
+
 
   return 0;
 }
