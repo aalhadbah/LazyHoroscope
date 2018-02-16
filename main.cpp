@@ -14,12 +14,12 @@ int lucky;
 
 
 
-cout<<"What's your first name?\n";           
+cout<<"What is your first name?\n";           
 cin>> FirstName;                             //Sentences For Names
 fInitial=FirstName[0]; 
 
 
-cout<<"what's your last name?\n";
+cout<<"what is your last name?\n";
 cin>> LastName;
 lInitial=LastName[0];
 
@@ -34,19 +34,20 @@ lucky = FirstName.length();
     if(fInitial=='a'||fInitial=='e'||fInitial=='i'||fInitial=='o'||fInitial=='u'||fInitial=='A'||fInitial=='E'||fInitial=='I'||fInitial=='O'||fInitial=='U')
 
 
-{ cout<< "you are destined to be famous !\n"; } 
+{ cout<< " you are destined to be famous !\n"; } 
 
 
     else if(fInitial>65 && fInitial<90||fInitial>97 && fInitial<122)
-    { cout<<"you should kep a low profile.\n"; 
+    { cout<<" you should keep a low profile.\n"; 
     }
 
 int len= LastName.length();
 if(LastName[len -1]=='a'||LastName[len -1]=='e'||LastName[len -1]=='i'||LastName[len -1]=='o'||LastName[len -1]=='u'||LastName[len -1]=='A'||LastName[len -1]=='E'||LastName[len -1]=='I'||LastName[len -1]=='O'||LastName[len -1]||LastName[len -1]||LastName[len -1]=='U')
 
-{cout<<"you have already met your true love";
+{cout<<" you have already met your true love";
 
 cout<<" have a good day!";}
+
 else {cout<<" have a good day!";}
 
 
