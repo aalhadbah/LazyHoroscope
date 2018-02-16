@@ -44,11 +44,11 @@ lucky = FirstName.length();
 int len= LastName.length();
 if(LastName[len -1]=='a'||LastName[len -1]=='e'||LastName[len -1]=='i'||LastName[len -1]=='o'||LastName[len -1]=='u'||LastName[len -1]=='A'||LastName[len -1]=='E'||LastName[len -1]=='I'||LastName[len -1]=='O'||LastName[len -1]||LastName[len -1]||LastName[len -1]=='U')
 
-{cout<<" you have already met your true love";
+{cout<<" you have already met your true love \n" ;
 
-cout<<" have a good day!";}
+cout<<" have a good day! \n";}
 
-else {cout<<" have a good day!";}
+else {cout<<" have a good day! \n";}
 
 
 
